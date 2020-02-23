@@ -28,8 +28,8 @@ public class DICOM2 {
 	public static void main(String[] args) {
 
 /*
-* Insert your own path of DICOM file For testing purpose: @link
-* http://www.rubomedical.com/dicom_files/
+* Insert your own path of DICOM file For testing purpose
+* @link http://www.rubomedical.com/dicom_files/
 * 
 */
 
@@ -40,7 +40,7 @@ public class DICOM2 {
       
 /*
 * Reading the metadata
-* check the ouput metadata in output.java
+* Check the ouput metadata in file output.java 
 */
 
 			System.out.println("Patient Name:" + getTagInformation(TagFromName.PatientName));
