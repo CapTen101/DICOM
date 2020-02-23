@@ -39,8 +39,8 @@ public class DICOM2 {
 			list.read(dicomFile);
       
 /*
-* Read the metadata
-* 
+* Reading the metadata
+* check the ouput metadata in output.java
 */
 
 			System.out.println("Patient Name:" + getTagInformation(TagFromName.PatientName));
