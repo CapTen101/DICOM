@@ -43,23 +43,23 @@ public class DICOM2 {
 * Check the ouput metadata in file output.java 
 */
 
-			System.out.println("Patient Name:" + getTagInformation(TagFromName.PatientName));
-			System.out.println("Patient ID:" + getTagInformation(TagFromName.PatientID));
-			System.out.println("Transfer Syntax:" + getTagInformation(TagFromName.TransferSyntaxUID));
-			System.out.println("SOP Class:" + getTagInformation(TagFromName.SOPClassUID));
-			System.out.println("Modality:" + getTagInformation(TagFromName.Modality));
-			System.out.println("Samples Per Pixel:" + getTagInformation(TagFromName.SamplesPerPixel));
-			System.out.println("Photometric Interpretation:" + getTagInformation(TagFromName.PhotometricInterpretation));
-			System.out.println("Pixel Spacing:" + getTagInformation(TagFromName.PixelSpacing));
-			System.out.println("Bits Allocated:" + getTagInformation(TagFromName.BitsAllocated));
-			System.out.println("Bits Stored:" + getTagInformation(TagFromName.BitsStored));
-			System.out.println("High Bit:" + getTagInformation(TagFromName.HighBit));
+			System.out.println("Patient Name: " + getTagInformation(TagFromName.PatientName));
+			System.out.println("Patient ID: " + getTagInformation(TagFromName.PatientID));
+			System.out.println("Transfer Syntax: " + getTagInformation(TagFromName.TransferSyntaxUID));
+			System.out.println("SOP Class: " + getTagInformation(TagFromName.SOPClassUID));
+			System.out.println("Modality: " + getTagInformation(TagFromName.Modality));
+			System.out.println("Samples Per Pixel: " + getTagInformation(TagFromName.SamplesPerPixel));
+			System.out.println("Photometric Interpretation: " + getTagInformation(TagFromName.PhotometricInterpretation));
+			System.out.println("Pixel Spacing: " + getTagInformation(TagFromName.PixelSpacing));
+			System.out.println("Bits Allocated: " + getTagInformation(TagFromName.BitsAllocated));
+			System.out.println("Bits Stored: " + getTagInformation(TagFromName.BitsStored));
+			System.out.println("High Bit: " + getTagInformation(TagFromName.HighBit));
 			SourceImage img = new com.pixelmed.display.SourceImage(list);
-			System.out.println("Number of frames " + img.getNumberOfFrames());
-			System.out.println("Width " + img.getWidth());// all frames will have same width
-			System.out.println("Height " + img.getHeight());// all frames will have same height
-			System.out.println("Is Grayscale? " + img.isGrayscale());
-			System.out.println("Pixel Data present:" + (list.get(TagFromName.PixelData) != null));
+			System.out.println("Number of frames: " + img.getNumberOfFrames());
+			System.out.println("Width: " + img.getWidth());// all frames will have same width
+			System.out.println("Height: " + img.getHeight());// all frames will have same height
+			System.out.println("Is Grayscale?: " + img.isGrayscale());
+			System.out.println("Pixel Data present: " + (list.get(TagFromName.PixelData) != null));
 
 		} catch (Exception e) {
 			e.printStackTrace();
