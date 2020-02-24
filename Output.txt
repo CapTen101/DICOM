@@ -1,16 +1,16 @@
-Patient Name:Rubo DEMO
-Patient ID:556342B
-Transfer Syntax:1.2.840.10008.1.2.4.50
-SOP Class:1.2.840.10008.5.1.4.1.1.12.1
-Modality:XA
-Samples Per Pixel:1
-Photometric Interpretation:MONOCHROME2
-Pixel Spacing:
-Bits Allocated:8
-Bits Stored:8
-High Bit:7
-Number of frames 96
-Width 512
-Height 512
-Is Grayscale? true
-Pixel Data present:true
+Patient Name: Rubo DEMO
+Patient ID: 556342B
+Transfer Syntax: 1.2.840.10008.1.2.4.50
+SOP Class: 1.2.840.10008.5.1.4.1.1.12.1
+Modality: XA
+Samples Per Pixel: 1
+Photometric Interpretation: MONOCHROME2
+Pixel Spacing: 
+Bits Allocated: 8
+Bits Stored: 8
+High Bit: 7
+Number of frames: 96
+Width: 512
+Height: 512
+Is Grayscale?: true
+Pixel Data present: true
